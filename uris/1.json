@@ -1,0 +1,19 @@
+{
+    "name": "Niña",
+    "description": "Ilustración de la Carabela Niña, la más pequeña de la flota y la que regresó a Europa con Colón.",
+    "image": "ipfs://bafybeia2l5vhiifopyr6xklupysy7khz6iwl3psdt6h64gt4y7fg25nbma",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Rare"
+        },
+        {
+            "trait_type": "Tipo",
+            "value": "Carabela"
+        },
+        {
+            "trait_type": "Capitán",
+            "value": "Vicente Yáñez Pinzón"
+        }
+    ]
+}

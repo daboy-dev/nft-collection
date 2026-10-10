@@ -1,0 +1,19 @@
+{
+    "name": "Pinta",
+    "description": "Ilustración de la Carabela Pinta, la nave que avistó tierra por primera vez en el viaje de 1492.",
+    "image": "ipfs://bafybeicoxuaajfmaewq7i2n4zgtpjtzgfmoxqxu7mwwkgf3zykwcca6rpi",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        },
+        {
+            "trait_type": "Tipo",
+            "value": "Carabela"
+        },
+        {
+            "trait_type": "Capitán",
+            "value": "Martín Alonso Pinzón"
+        }
+    ]
+}

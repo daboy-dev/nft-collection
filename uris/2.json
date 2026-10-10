@@ -1,0 +1,19 @@
+{
+    "name": "Santa María",
+    "description": "Ilustración de la Nao Santa María, la nave capitana de la expedición de 1492.",
+    "image": "ipfs://bafybeigums6avot72l7ammcdty52tgbamp2vw2c74rygmrqugsu36cwko4",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Legendary"
+        },
+        {
+            "trait_type": "Tipo",
+            "value": "Carabela"
+        },
+        {
+            "trait_type": "Capitán",
+            "value": "Cristobal Colón"
+        }
+    ]
+}
