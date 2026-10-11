@@ -13,7 +13,9 @@ contract NFTCollection is ERC721 {
 
     event MintNFT(address userAddress, uint256 tokenId);
 
-    constructor(string memory name_, string memory symbol_, uint256 totalSupply_, string memory baseUri_) ERC721(name_, symbol_) {
+    constructor(string memory name_, string memory symbol_, uint256 totalSupply_, string memory baseUri_)
+        ERC721(name_, symbol_)
+    {
         totalSupply = totalSupply_;
         baseUri = baseUri_;
     }
@@ -24,14 +26,14 @@ contract NFTCollection is ERC721 {
         _safeMint(msg.sender, currentTokenId);
         currentTokenId++;
 
-        emit MintNFT(msg.sender, currentTokenId-1);
+        emit MintNFT(msg.sender, currentTokenId - 1);
     }
 
-    function _baseURI() internal override view virtual returns (string memory) {
+    function _baseURI() internal view virtual override returns (string memory) {
         return baseUri;
     }
 
-    function tokenURI(uint256 tokenId) public override view virtual returns (string memory) {
+    function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {
         _requireOwned(tokenId);
 
         string memory baseURI = _baseURI();

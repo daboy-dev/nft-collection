@@ -5,8 +5,7 @@ import {Script} from "forge-std/Script.sol";
 import {NFTCollection} from "../src/NFTCollection.sol";
 
 contract DeployNFTCollection is Script {
-
-    function run() external returns(NFTCollection) {
+    function run() external returns (NFTCollection) {
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
         vm.startBroadcast(deployerPrivateKey);
 
@@ -16,7 +15,7 @@ contract DeployNFTCollection is Script {
         string memory baseUri = "ipfs://bafybeihieybtize6q5mty5xp4jwai3m43bribubp7onryvvxpnxlroxykq/";
 
         NFTCollection collection = new NFTCollection(name, symbol, totalSupply, baseUri);
-        
+
         vm.stopBroadcast();
         return collection;
     }
